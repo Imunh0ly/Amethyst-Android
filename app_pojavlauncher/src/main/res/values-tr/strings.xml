@@ -51,6 +51,7 @@
     <string name="mcl_setting_title_renderer_settings">Ek işleyici ayarları</string>
     <string name="mcl_setting_title_renderer_subtitle">İşleyiciye özgü ayarlar</string>
     <string name="mcl_setting_category_renderer">İşleyici</string>
+    <string name="mcl_setting_renderer_gles2_4">Kutsal GL4ES- (1.21.4&lt; sadece, Hızlı)</string>
     <string name="mcl_setting_renderer_vulkan_zink">Zink (Vulkan) - (tüm sürümler için, orta)</string>
     <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - (sadece 1.17+, hızlı)</string>
     <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - sadece 1.17+</string>
@@ -145,6 +146,8 @@
     <string name="mcl_disable_swap_hand_subtitle">İkinci elde değiştirmek için kısayol çubuğu ögesine iki kez dokunmayı devre dışı bırakır.</string>
     <string name="mcl_setting_title_mousespeed">İmleç Hızı</string>
     <string name="mcl_setting_subtitle_mousespeed">Sanal farenin hızını ayarlar.</string>
+    <string name="mcl_setting_title_grab_mouse">Sanal imleç kullan</string>
+    <string name="mcl_setting_subtitle_grab_mouse">İmlecin oyun içinde kaldığından emin olur. Farenin dokunmatik kontrol düzeniyle etkileşime geçmesini engeller.</string>
     <string name="customctrl_passthru">İmleç geçişi</string>
     <string name="customctrl_swipeable">Kaydırılabilir</string>
     <string name="customctrl_forward_lock">İleri kilidi</string>
@@ -394,11 +397,18 @@
     <string name="mg_renderer_angle">Sürücü olarak ANGLE\'ı kullan</string>
     <string name="mg_renderer_multidraw">Multidraw emulasyon modu</string>
     <string name="mg_renderer_title_errorSetting">Hata filtreleme</string>
+    <string name="mg_renderer_title_timerQueryExt">GPU kullanımını F3 menüsünde devre dışı bırak</string>
+    <string name="mg_renderer_summary_timerQueryExt">Bazı Mali Cihazlarda F3 menüsü açıldığında oluşan rastgele crash hatalarını düzeltir</string>
+    <string name="preference_ANGLE_only">Sadece ANGLE için ayarlar</string>
+    <string name="mg_renderer_title_angleDepthClearFixMode">Elin ve Elde tutulan eşyaların blokların içerisinden geçmesini düzeltir</string>
+    <string name="mg_renderer_summary_angleDepthClearFixMode">Sadece ANGLE\'ı etki eder, Performansa etkisi olabilir.</string>
     <string name="preference_experimental_title">Deneysel Ayarlar</string>
     <string name="mg_renderer_title_gl43exts">Deneysel OpenGL 4.3 uzantılarını destekliyormuş gibi göster</string>
     <string name="mg_renderer_summary_gl43exts">Mod çökmelerine yardımcı olabilir. Ihtiyaç yoksa devre dışı bırakın, çökmelere sebep olabilir.</string>
     <string name="mg_renderer_title_computeShaderext">Deneysel Compute Shader uzantısını destekliyormuş gibi göster</string>
     <string name="mg_renderer_summary_computeShaderext">Shader paketi bozulmalarına yardımcı olabilir. Ihtiyaç yoksa devre dışı bırakın, çökmelere sebep olabilir.</string>
+    <string name="mg_renderer_title_multidrawCompute">Hesaplama ile Çoklu Çizim Taklidi Kullan</string>
+    <string name="mg_renderer_summary_multidrawCompute">Çoklu çizim emülasyonu için hesaplama shader’larını kullanır</string>
     <string name="app_short_name">Amethyst</string>
     <string name="demo_versions_supported">Sadece Vanilla 1.3.1 ve üzeri sürümler deneme hesaplarında desteklenmektedir</string>
     <string name="demo_unsupported">Deneme Profili desteklenmemektedir</string>
@@ -411,4 +421,10 @@
     <string name="modloader_dl_install_neoforge">Neoforge profili yarat</string>
     <string name="neoforge_dl_select_version">Lütfen NeoForge Sürümü seçiniz</string>
     <string name="neoforge_dl_no_installer">Özür dileriz, ama NeoForge\'un bu sürümü indiriciye sahip değil veya gözükmüyor, bu yüzden şu durumda destek dışıdır.</string>
+    <string name="preference_category_touchcontroller_settings">DokunmatikKotnrolcü Ayarları</string>
+    <string name="preference_force_enable_touchcontroller_title">DokunmatikKontrolcülerini zorla aktif eder</string>
+    <string name="preference_force_enable_touchcontroller_description">DokunmatikKontrolcü entegrasyonunu zorla aktif eder, öyleki mod dosyası bulunmasa bile.</string>
+    <string name="preference_touchcontroller_vibrate_length_title">DokunmatikKontrolcü titreşim uzunluğu</string>
+    <string name="preference_touchcontroller_vibrate_length_description">DokunmatikKontrolcü kullanılır iken oluşan titreşim uzunluğunu ayarla.</string>
+    <string name="error_vanilla_json_corrupt">Vanila json dosyaları görünüşe göre bozulmuş veya deforme halde. Lütfen Github veya discord\'a bir Hata raporu yollayınız.</string>
 </resources>
