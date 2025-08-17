@@ -387,8 +387,8 @@
     <string name="local_login_bad_username_title">用户名不合适</string>
     <string name="local_login_bad_username_text">用户名长度必须在 3–16 个字符之间，并且只能包含拉丁字母、数字 0–9 和下划线。</string>
     <string name="quick_setting_title">快速设置</string>
-    <string name="create_bta_profile">创建 \"Better than Adventure!\" 配置</string>
-    <string name="select_bta_version">选择 \"Better than Adventure!\" 版本</string>
+    <string name="create_bta_profile">创建“Better than Adventure!”配置</string>
+    <string name="select_bta_version">选择“Better than Adventure!”版本</string>
     <string name="bta_installer_available_versions">支持的 BTA 版本</string>
     <string name="bta_installer_untested_versions">未测试的 BTA 版本</string>
     <string name="bta_installer_nightly_versions">夜间 BTA 版本</string>
@@ -416,7 +416,7 @@
     <string name="demo_unsupported">不支持演示配置文件</string>
     <string name="change_account">请更换账户以使用此功能</string>
     <string name="no_minecraft_account_found">未找到 Minecraft 账户</string>
-    <string name="feature_requires_java_account">此功能需要拥有 Minecraft Java 版的 Microsoft 账户。</string>
+    <string name="feature_requires_java_account">此功能需要拥有 Minecraft Java 版的微软账户。</string>
     <string name="delete_account_and_login">删除账户并登录</string>
     <string name="login_again">请重新登录</string>
     <string name="account_corrupted">所选账户存在问题</string>
