@@ -51,16 +51,16 @@
     <string name="mcl_setting_title_renderer_settings">渲染器附加设置</string>
     <string name="mcl_setting_title_renderer_subtitle">渲染器特定设置</string>
     <string name="mcl_setting_category_renderer">渲染器</string>
-    <string name="mcl_setting_renderer_gles2_4">Holy GL4ES -（仅 &lt;1.21.4，速度较快）</string>
-    <string name="mcl_setting_renderer_vulkan_zink">Zink（Vulkan）-（全版本可用，速度中等）</string>
-    <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - (仅限 1.17+，速度较快)</string>
-    <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - 仅限 1.17+</string>
+    <string name="mcl_setting_renderer_gles2_4">Holy GL4ES—（仅 &lt;1.21.4，速度较快）</string>
+    <string name="mcl_setting_renderer_vulkan_zink">Zink（Vulkan）—（全版本可用，速度中等）</string>
+    <string name="mcl_setting_renderer_mobileglues">MobileGlues（OpenGL ES）—（仅限 1.17+，速度较快）</string>
+    <string name="mcl_setting_renderer_ltw">LTW（OpenGL ES 3）—仅限 1.17+</string>
     <string name="mcl_setting_veroption_release">正式版</string>
-    <string name="mcl_setting_veroption_snapshot">快照</string>
+    <string name="mcl_setting_veroption_snapshot">快照版</string>
     <string name="mcl_setting_veroption_oldalpha">远古 alpha 版</string>
     <string name="mcl_setting_veroption_oldbeta">远古 beta 版</string>
     <string name="mcl_setting_java_sandbox">沙盒 .jar 可执行文件</string>
-    <string name="mcl_setting_java_sandbox_subtitle">在执行 Jar 文件时，控制沙盒安全管理器的可用性。</string>
+    <string name="mcl_setting_java_sandbox_subtitle">在执行 .jar 文件时，控制沙盒安全管理器是否可用。</string>
     <string name="mcl_version_clone">复制</string>
     <!-- Global strings -->
     <string name="global_edit">编辑</string>
@@ -116,7 +116,7 @@
     <string name="control_more3"></string>
     <string name="control_more4"></string>
 -->
-    <string name="customctrl_toggle">可切换</string>
+    <string name="customctrl_toggle">切换触发</string>
     <string name="customctrl_size">大小</string>
     <string name="customctrl_mapping">映射</string>
     <string name="customctrl_orientation">方向</string>
@@ -132,7 +132,7 @@
     <string name="customctrl_selectdefault">选择默认控制布局</string>
     <string name="customctrl_export">导出控制布局文件</string>
     <string name="main_share_logs">分享日志文件</string>
-    <string name="main_install_jar_file">执行 Jar 文件</string>
+    <string name="main_install_jar_file">执行 .jar 文件</string>
     <string name="main_play">启动游戏</string>
     <string name="autoram_info_msg">内存已分配 %d MB</string>
     <string name="mcl_setting_check_libraries">在下载完成后检查依赖库</string>
@@ -149,11 +149,11 @@
     <string name="mcl_setting_title_grab_mouse">使用虚拟光标</string>
     <string name="mcl_setting_subtitle_grab_mouse">确保光标停留在游戏内。防止鼠标点击触摸控制布局。</string>
     <string name="customctrl_passthru">穿透点击</string>
-    <string name="customctrl_swipeable">可滑动</string>
+    <string name="customctrl_swipeable">滑动点击</string>
     <string name="customctrl_forward_lock">前进锁定</string>
     <string name="customctrl_absolute_tracking">绝对手指跟踪</string>
     <string name="memory_warning_msg">当前空闲内存（%d）低于分配值（%d），存在崩溃风险！如崩溃请调整内存分配。</string>
-    <string name="address_memory_warning_msg">当前可用内存（%d)）低于分配值 （%d），将大概率导致崩溃！如崩溃请调整内存分配。</string>
+    <string name="address_memory_warning_msg">当前可用内存（%d）低于分配值（%d），将大概率导致崩溃！如崩溃请调整内存分配。</string>
     <string name="mcl_memory_allocation">内存分配</string>
     <string name="mcl_memory_allocation_subtitle">控制给 Minecraft 的内存分配量。</string>
     <string name="multirt_runtime_corrupt">Java 运行环境损坏</string>
@@ -162,7 +162,7 @@
     <string name="multirt_config_add">新建</string>
     <string name="multirt_title">运行环境管理器</string>
     <string name="multirt_subtitle">管理已安装的 Java 运行环境。</string>
-    <string name="multirt_progress_caching">正在缓存…</string>
+    <string name="multirt_progress_caching">正在缓存……</string>
     <string name="multirt_config_setdefault">设为默认</string>
     <string name="multirt_config_setdefault_already">默认</string>
     <string name="multirt_config_removeerror_last">您必须至少安装一个 Java 运行环境。</string>
@@ -208,7 +208,7 @@
     <string name="pedit_java_runtime">Java 运行环境</string>
     <string name="pedit_renderer">渲染器</string>
     <string name="arc_capes_title">Cosmetica 披风</string>
-    <string name="arc_capes_desc">启用来自 Cosmetica（原 Arc）的披风，需要 OptiFine，欲知详情请访问 https://arcapes.com。</string>
+    <string name="arc_capes_desc">启用来自 Cosmetica（前身为 Arc）的披风。欲了解更多信息，请访问 https://cosmetica.cc。需要 OptiFine。</string>
     <string name="notif_channel_name">常规</string>
     <string name="lazy_service_default_title">Amethyst 前台服务</string>
     <string name="mcl_setting_veroption_installed">已安装</string>
@@ -233,7 +233,7 @@
     <string name="xerr_adult_verification">需要成年人验证您的账户。</string>
     <string name="xerr_child">您的账户是儿童账户，需要添加到家庭中方能登录。</string>
     <string name="minecraft_not_owned">这个账户似乎没有 Minecraft 配置文件。如果您有 Xbox Game Pass，请登录 https://minecraft.net/ 并进行设置。</string>
-    <string name="xerr_not_available">Xbox Live 在您所在的国家/地区不可用。</string>
+    <string name="xerr_not_available">Xbox Live 在您所在的国家/地区不可用</string>
     <string name="preference_enable_gyro_title">启用陀螺仪控制</string>
     <string name="preference_enable_gyro_description">启用此功能将允许您通过转动手机来在游戏中转动视角。</string>
     <string name="preference_gyro_sensitivity_title">陀螺仪控制灵敏度</string>
