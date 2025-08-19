@@ -58,6 +58,7 @@
     <string name="mcl_version_clone">Clonar</string>
     <!-- Global strings -->
     <string name="global_edit">Editar</string>
+    <string name="global_error">Error</string>
     <string name="global_load">Cargar</string>
     <string name="global_name">Nombre</string>
     <string name="global_remove">Eliminar</string>
@@ -76,6 +77,8 @@
     <string name="mcn_exit_confirm">¿Estás seguro de que quieres forzar el cierre?</string>
     <string name="mcn_check_fail_vulkan_support">¡El renderizador Zink (Vulkan) no es compatible con este dispositivo!</string>
     <!-- MainActivity: Control buttons -->
+    <string name="control_chat">Chat</string>
+    <string name="control_debug">Depuración</string>
     <string name="control_secondary">Seg</string>
     <string name="control_up">▲</string>
     <string name="control_left">◀</string>
@@ -272,6 +275,7 @@
     <string name="preference_vulkan_driver_system_description">Forzar al launcher a usar el controlador Vulkan del sistema en lugar de Turnip en GPUs Adreno. Sólo afecta a Zink y mods que usan Vulkan.</string>
     <string name="generic_install">Instalar</string>
     <string name="generic_apply">Aplicar</string>
+    <string name="generic_debug">Depuración</string>
     <string name="search_modpack_no_result">No se encontraron modpacks</string>
     <string name="search_modpack_error">No se pudo encontrar modpacks</string>
     <string name="search_modpack_download_error">Error al descargar los metadatos del modpack</string>
