@@ -16,7 +16,7 @@
     <!-- Error messages -->
     <string name="error_fatal">Amethyst 意外崩溃</string>
     <string name="error_no_version">无可用版本！</string>
-    <string name="error_show_more">显示详情</string>
+    <string name="error_show_more">显示更多</string>
     <string name="error_show_less">隐藏详情</string>
     <!-- Toast messages -->
     <string name="toast_permission_denied">请授予存储读写权限！</string>
@@ -25,21 +25,21 @@
     <string name="toast_3">Exit</string>
     -->
     <!-- MCLauncherActivity: Tabs -->
-    <string name="mcl_tab_wiki">Wiki</string>
+    <string name="mcl_tab_wiki">维基</string>
     <!-- MCLauncherActivity: Account status -->
     <!-- MCLauncherActivity: Strings -->
-    <string name="mcl_launch_cleancache">正在清理缓存</string>
+    <string name="mcl_launch_cleancache">正在清理缓存文件</string>
     <string name="mcl_launch_downloading">正在下载 %s</string>
     <string name="mcl_launch_downloading_progress">"正在下载 %s (%.2f MB / %.2f MB)"</string>
-    <string name="mcl_launch_download_assets">正在准备下载资源</string>
+    <string name="mcl_launch_download_assets">准备下载资源中</string>
     <string name="mcl_options">选项</string>
     <string name="mcl_option_customcontrol">自定义控制按键</string>
     <string name="mcl_setting_title_use_surface_view">启用备用表层渲染</string>
-    <string name="mcl_setting_subtitle_use_surface_view">此项设置可能有助于提升受 GPU 机能限制的性能。</string>
+    <string name="mcl_setting_subtitle_use_surface_view">此项设置可能有助于提升受 GPU 限制的性能。</string>
     <string name="mcl_setting_title_ignore_notch">忽略刘海屏</string>
-    <string name="mcl_setting_subtitle_ignore_notch">忽略刘海屏并将画面内容扩展至其下方，\n以给您以更完整的沉浸感。</string>
+    <string name="mcl_setting_subtitle_ignore_notch">忽略刘海屏并将画面内容扩展至其下方，\n给您更完整的沉浸感。</string>
     <string name="mcl_setting_title_resolution_scaler">分辨率缩放</string>
-    <string name="mcl_setting_subtitle_resolution_scaler">允许降低游戏画面分辨率，原生分辨率为 100%。</string>
+    <string name="mcl_setting_subtitle_resolution_scaler">允许降低游戏画面分辨率，原始分辨率为 100%。</string>
     <string name="mcl_setting_title_longpresstrigger">触发长按时长</string>
     <string name="mcl_setting_subtitle_longpresstrigger">更改长按（摧毁方块、丢弃物品）的触发时长。</string>
     <string name="mcl_setting_title_buttonscale">键位按键缩放</string>
