@@ -25,7 +25,7 @@
     <string name="toast_3">Exit</string>
     -->
     <!-- MCLauncherActivity: Tabs -->
-    <string name="mcl_tab_wiki">维基</string>
+    <string name="mcl_tab_wiki">Wiki</string>
     <!-- MCLauncherActivity: Account status -->
     <!-- MCLauncherActivity: Strings -->
     <string name="mcl_launch_cleancache">正在清理缓存文件</string>
@@ -187,7 +187,7 @@
     <string name="preference_force_vsync_title">强制启用垂直同步</string>
     <string name="preference_force_vsync_description">通过限制峰值性能来限制过热降频。</string>
     <string name="preference_force_english_title">强制使用英文</string>
-    <string name="preference_force_english_description">允许您按开发者的意愿查看原始字符串，此操作需要重启。</string>
+    <string name="preference_force_english_description">允许您按开发者的原意看到原始字符串，此操作需要重启。</string>
     <string name="preference_edit_controls_title">编辑控制布局</string>
     <string name="preference_edit_controls_summary">调整控制布局方案以适应您的需求。</string>
     <string name="preference_category_gyro_controls">陀螺仪控制</string>
@@ -198,7 +198,7 @@
     <string name="preference_gyro_invert_y_axis_description">反转垂直轴</string>
     <string name="preference_gyro_smoothing_title">启用陀螺仪平滑</string>
     <string name="preference_gyro_smoothing_description">减少抖动以换取延迟。</string>
-    <string name="preference_back_title">返回最后一页</string>
+    <string name="preference_back_title">返回上一页</string>
     <string name="unnamed">未命名</string>
     <string name="profiles_latest_snapshot">最新快照版</string>
     <string name="profiles_latest_release">最新正式版</string>
@@ -223,7 +223,7 @@
     <string name="folder_fragment_select">选择此文件夹</string>
     <string name="main_login_done">登录成功！</string>
     <string name="main_add_account">添加账户</string>
-    <string name="tasks_ongoing">任务进行中，请稍候…</string>
+    <string name="tasks_ongoing">任务进行中，请稍候</string>
     <string name="no_saved_accounts">没有已保存的账户</string>
     <string name="mc_download_failed">Minecraft 下载失败！
 可能是由于：网络异常、文件放置错误、试图通过离线账户下载等。</string>
