@@ -31,7 +31,7 @@
     <string name="mcl_launch_cleancache">正在清理缓存文件</string>
     <string name="mcl_launch_downloading">正在下载 %s</string>
     <string name="mcl_launch_downloading_progress">"正在下载 %s (%.2f MB / %.2f MB)"</string>
-    <string name="mcl_launch_download_assets">准备下载资源中</string>
+    <string name="mcl_launch_download_assets">正在准备下载资源</string>
     <string name="mcl_options">选项</string>
     <string name="mcl_option_customcontrol">自定义控制按键</string>
     <string name="mcl_setting_title_use_surface_view">启用备用表层渲染</string>
@@ -45,16 +45,16 @@
     <string name="mcl_setting_title_buttonscale">控制按键缩放</string>
     <string name="mcl_setting_subtitle_buttonscale">如果按键太小，可以将此设置调大。</string>
     <string name="mcl_setting_title_mousescale">鼠标缩放</string>
-    <string name="mcl_setting_subtitle_mousescale">修改虚拟鼠标大小。</string>
+    <string name="mcl_setting_subtitle_mousescale">调整虚拟鼠标大小。</string>
     <string name="mcl_setting_title_javaargs">JVM 启动参数</string>
     <string name="mcl_setting_subtitle_javaargs">注意，如果你不清楚你在做什么请勿随意修改，否则可能会导致游戏崩溃！</string>
     <string name="mcl_setting_title_renderer_settings">附加渲染器设置</string>
     <string name="mcl_setting_title_renderer_subtitle">渲染器特定设置</string>
     <string name="mcl_setting_category_renderer">渲染器</string>
-    <string name="mcl_setting_renderer_gles2_4">Holy GL4ES —（仅 &lt;1.21.4，速度较快）</string>
+    <string name="mcl_setting_renderer_gles2_4">Holy GL4ES—（仅 &lt;1.21.4，速度较快）</string>
     <string name="mcl_setting_renderer_vulkan_zink">Zink（Vulkan）—（可用于所有版本，速度中等）</string>
     <string name="mcl_setting_renderer_mobileglues">MobileGlues（OpenGL ES）—（仅 1.17+，速度快）</string>
-    <string name="mcl_setting_renderer_ltw">LTW（OpenGL ES 3）— 仅 1.17+</string>
+    <string name="mcl_setting_renderer_ltw">LTW（OpenGL ES 3）—仅 1.17+</string>
     <string name="mcl_setting_veroption_release">正式版</string>
     <string name="mcl_setting_veroption_snapshot">快照版</string>
     <string name="mcl_setting_veroption_oldalpha">远古 alpha 版</string>
@@ -84,7 +84,7 @@
     <string name="mcn_exit_confirm">您确定要强制关闭？</string>
     <string name="mcn_check_fail_vulkan_support">此设备不支持 Zink（Vulkan）渲染器！</string>
     <!-- MainActivity: Control buttons -->
-    <string name="control_chat">交流</string>
+    <string name="control_chat">聊天</string>
     <string name="control_debug">调试</string>
     <string name="control_primary">主</string>
     <string name="control_secondary">副</string>
@@ -137,9 +137,9 @@
     <string name="autoram_info_msg">已分配内存 %d MB</string>
     <string name="mcl_setting_check_libraries">下载完成后检查依赖库</string>
     <string name="mcl_setting_check_libraries_subtitle">该选项强制启动器在可用时校验依赖库文件哈希值，防止下载损坏。</string>
-    <string name="dl_library_sha_fail">依赖 %s 已损坏，将被重新下载</string>
-    <string name="dl_library_sha_unknown">无法检查依赖 %s ，它最好正常</string>
-    <string name="dl_library_sha_pass">依赖 %s 正常且可用</string>
+    <string name="dl_library_sha_fail">依赖库 %s 已损坏，将重新下载</string>
+    <string name="dl_library_sha_unknown">无法检查依赖库 %s，暂假设其正常</string>
+    <string name="dl_library_sha_pass">依赖库 %s 正常且可用</string>
     <string name="mcl_disable_gestures">禁用手势</string>
     <string name="mcl_disable_gestures_subtitle">禁用手势，例如长按破坏方块和点击放置方块。</string>
     <string name="mcl_disable_swap_hand">禁用双击交换主副手物品</string>
@@ -244,7 +244,7 @@
     <string name="storage_required">PojavLauncher 需要连接外部存储，请重新连接并重启应用。</string>
     <string name="mcl_setting_title_buttonallcaps">在标签按钮中仅使用大写字母</string>
     <string name="mcl_setting_subtitle_buttonallcaps">如果您想在按键中显示小写字母，请关闭此设置。</string>
-    <string name="create_profile">创建新的个人资料</string>
+    <string name="create_profile">创建新的配置</string>
     <string name="preference_shader_dump_title">启用着色器输出</string>
     <string name="preference_shader_dump_description">记录切换的着色器到日志文件中。</string>
     <string name="percent_format">%d%%</string>
