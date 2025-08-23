@@ -231,7 +231,7 @@
     <string name="xerr_no_account">您似乎没有 Xbox Live 账户，请在 https://minecraft.net/ 上登录一次，然后重试。</string>
     <string name="xerr_adult_verification">需要成年人验证您的账户。</string>
     <string name="xerr_child">您的账户是儿童账户，需要添加到家庭中方能登录。</string>
-    <string name="minecraft_not_owned">这个账户似乎没有 Minecraft 个人资料。如果您有 Xbox Game Pass，请登录 https://minecraft.net/ 并进行设置。</string>
+    <string name="minecraft_not_owned">这个账户似乎没有 Minecraft 玩家档案。如果您有 Xbox Game Pass，请登录 https://minecraft.net/ 并进行设置。</string>
     <string name="xerr_not_available">Xbox Live 在您所在的国家/地区不可用</string>
     <string name="preference_enable_gyro_title">启用陀螺仪控制</string>
     <string name="preference_enable_gyro_description">启用此功能将允许您转动手机以控制游戏视角。</string>
@@ -412,7 +412,7 @@
     <string name="mg_renderer_summary_multidrawCompute">使用计算着色器进行多重绘制模拟</string>
     <string name="app_short_name">Amethyst</string>
     <string name="demo_versions_supported">模拟账户仅支持原版 1.3.1 及以上版本</string>
-    <string name="demo_unsupported">不支持演示配置</string>
+    <string name="demo_unsupported">不支持演示玩家档案</string>
     <string name="change_account">请更换账户以使用此功能</string>
     <string name="no_minecraft_account_found">未找到 Minecraft 账户</string>
     <string name="feature_requires_java_account">此功能需要拥有 Minecraft Java 版的微软账户。</string>
