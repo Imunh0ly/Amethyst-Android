@@ -415,7 +415,7 @@
     <string name="demo_unsupported">不支持演示玩家档案</string>
     <string name="change_account">请更换账户以使用此功能</string>
     <string name="no_minecraft_account_found">未找到 Minecraft 账户</string>
-    <string name="feature_requires_java_account">此功能需要拥有 Minecraft Java 版的微软账户。</string>
+    <string name="feature_requires_java_account">此功能需要拥有 Minecraft Java 版的 Microsoft 账户。</string>
     <string name="delete_account_and_login">删除账户并登录</string>
     <string name="login_again">请重新登录</string>
     <string name="account_corrupted">所选账户存在问题</string>
