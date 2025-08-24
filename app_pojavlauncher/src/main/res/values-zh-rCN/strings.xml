@@ -279,7 +279,7 @@
     <string name="modloader_dl_install_forge">创建 Forge 配置</string>
     <string name="create_profile_vanilla">创建原版配置</string>
     <string name="create_profile_vanilla_like_versions">类原版版本</string>
-    <string name="create_profile_modded_versions">模组加载器版本</string>
+    <string name="create_profile_modded_versions">模组版本</string>
     <string name="fabric_dl_loader_title">选择版本</string>
     <string name="of_dl_select_version">选择 OptiFine 版本</string>
     <string name="of_dl_failed_to_scrape">无法收集 OptiFine 安装程序数据！</string>
@@ -392,7 +392,7 @@
     <string name="bta_installer_untested_versions">未测试的 BTA 版本</string>
     <string name="bta_installer_nightly_versions">夜间 BTA 版本</string>
     <string name="newdl_extracting_native_libraries">正在提取本地库（%d/%d）</string>
-    <string name="toast_not_available_demo">演示模式下不可用！</string>
+    <string name="toast_not_available_demo">试玩模式下不可用</string>
     <string name="preference_renderer_mobileglues_settings">MobileGlues 渲染器设置</string>
     <string name="mg_renderer_glsl_cache">最大 GLSL 缓存大小</string>
     <string name="mg_renderer_angle">使用 ANGLE 作为驱动</string>
@@ -411,8 +411,8 @@
     <string name="mg_renderer_title_multidrawCompute">使用计算多重绘制模拟</string>
     <string name="mg_renderer_summary_multidrawCompute">使用计算着色器进行多重绘制模拟</string>
     <string name="app_short_name">Amethyst</string>
-    <string name="demo_versions_supported">模拟账户仅支持原版 1.3.1 及以上版本</string>
-    <string name="demo_unsupported">不支持演示玩家档案</string>
+    <string name="demo_versions_supported">试玩账户仅支持原版 1.3.1 及以上版本</string>
+    <string name="demo_unsupported">不支持试玩玩家档案</string>
     <string name="change_account">请更换账户以使用此功能</string>
     <string name="no_minecraft_account_found">未找到 Minecraft 账户</string>
     <string name="feature_requires_java_account">此功能需要拥有 Minecraft Java 版的 Microsoft 账户。</string>
