@@ -16,7 +16,7 @@
     <!-- Error messages -->
     <string name="error_fatal">Amethyst 意外崩溃</string>
     <string name="error_no_version">无可用版本！</string>
-    <string name="error_show_more">显示更多</string>
+    <string name="error_show_more">显示详情</string>
     <string name="error_show_less">隐藏详情</string>
     <!-- Toast messages -->
     <string name="toast_permission_denied">请授予存储读写权限！</string>
@@ -35,19 +35,19 @@
     <string name="mcl_options">选项</string>
     <string name="mcl_option_customcontrol">自定义控制键</string>
     <string name="mcl_setting_title_use_surface_view">启用备用表层渲染</string>
-    <string name="mcl_setting_subtitle_use_surface_view">此项设置可能有助于提升受 GPU 限制的性能。</string>
+    <string name="mcl_setting_subtitle_use_surface_view">可能有助于提升 GPU 绑定场景中的性能。</string>
     <string name="mcl_setting_title_ignore_notch">忽略刘海屏</string>
     <string name="mcl_setting_subtitle_ignore_notch">忽略刘海屏并将画面内容扩展至其下方，\n给您更完整的沉浸感。</string>
     <string name="mcl_setting_title_resolution_scaler">分辨率缩放</string>
     <string name="mcl_setting_subtitle_resolution_scaler">允许降低游戏画面分辨率，原始分辨率为 100%。</string>
-    <string name="mcl_setting_title_longpresstrigger">长按触发时长</string>
+    <string name="mcl_setting_title_longpresstrigger">触发长按延迟</string>
     <string name="mcl_setting_subtitle_longpresstrigger">更改长按（摧毁方块、丢弃物品）的触发时长。</string>
     <string name="mcl_setting_title_buttonscale">控制按键缩放</string>
-    <string name="mcl_setting_subtitle_buttonscale">如果按键太小，可以将此设置调大。</string>
+    <string name="mcl_setting_subtitle_buttonscale">如果按钮太小，可以将此设置调大。</string>
     <string name="mcl_setting_title_mousescale">鼠标缩放</string>
     <string name="mcl_setting_subtitle_mousescale">调整虚拟鼠标大小。</string>
     <string name="mcl_setting_title_javaargs">JVM 启动参数</string>
-    <string name="mcl_setting_subtitle_javaargs">注意，如果你不清楚你在做什么请勿随意修改，否则可能会导致游戏崩溃！</string>
+    <string name="mcl_setting_subtitle_javaargs">请注意：无相关知识更改此值，可能导致游戏崩溃。</string>
     <string name="mcl_setting_title_renderer_settings">附加渲染器设置</string>
     <string name="mcl_setting_title_renderer_subtitle">渲染器特定设置</string>
     <string name="mcl_setting_category_renderer">渲染器</string>
@@ -106,7 +106,7 @@
     <string name="control_adebug">输入调试</string>
     <string name="control_customkey">发送自定义键码</string>
     <!-- ImportControlActivity Strings -->
-    <string name="import_control_label">导入控制键局文件</string>
+    <string name="import_control_label">导入控制键布局</string>
     <string name="import_control_invalid_file">文件无效或已损坏</string>
     <string name="import_control_import_button">导入控制键布局</string>
     <string name="import_control_verifying_file">正在校验文件，请稍后重试…</string>
@@ -124,13 +124,13 @@
     <string name="customctrl_corner_radius">圆角半径</string>
     <string name="customctrl_stroke_width">描边宽度</string>
     <string name="customctrl_stroke_color">描边颜色</string>
-    <string name="customctrl_button_opacity">按键不透明度</string>
-    <string name="customctrl_addbutton">添加按键</string>
-    <string name="customctrl_addbutton_drawer">添加组合键</string>
+    <string name="customctrl_button_opacity">按钮不透明度</string>
+    <string name="customctrl_addbutton">添加按钮</string>
+    <string name="customctrl_addbutton_drawer">添加组合按钮</string>
     <string name="customctrl_addbutton_joystick">添加摇杆</string>
     <string name="customctrl_addsubbutton">添加子按钮</string>
     <string name="customctrl_selectdefault">选择默认控制键布局</string>
-    <string name="customctrl_export">导出控制键布局文件</string>
+    <string name="customctrl_export">导出控制键布局</string>
     <string name="main_share_logs">分享日志文件</string>
     <string name="main_install_jar_file">执行 .jar 文件</string>
     <string name="main_play">启动游戏</string>
@@ -176,7 +176,7 @@
     <string name="preference_video_title">视频与渲染器</string>
     <string name="preference_video_description">分辨率、渲染器与性能</string>
     <string name="preference_control_title">自定义控制键</string>
-    <string name="preference_control_description">手势、按键与缩放</string>
+    <string name="preference_control_description">手势、按钮与缩放</string>
     <string name="preference_java_title">Java 调整</string>
     <string name="preference_java_description">Java 运行环境、JVM 参数、内存分配量与沙盒</string>
     <string name="preference_misc_title">其他设置</string>
@@ -258,7 +258,7 @@
     <string name="preference_controller_map_wiped">手柄控制配置已重置。</string>
     <string name="preference_category_controller_settings">手柄设置</string>
     <string name="preference_wipe_controller_title">重置手柄映射</string>
-    <string name="preference_wipe_controller_description">允许您重新映射手柄按键。</string>
+    <string name="preference_wipe_controller_description">允许您重新映射手柄按钮。</string>
     <string name="preference_deadzone_scale_title">摇杆死区比例</string>
     <string name="preference_deadzone_scale_description">若摇杆偏移，请调高此选项。</string>
     <string name="preference_force_big_core_title">强制渲染器在大核上运行</string>
