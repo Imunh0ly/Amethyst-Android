@@ -51,9 +51,9 @@
     <string name="mcl_setting_title_renderer_settings">Pengaturan Tambahan Renderer</string>
     <string name="mcl_setting_title_renderer_subtitle">Pengaturan Khusus untuk Renderer</string>
     <string name="mcl_setting_category_renderer">Renderer</string>
-    <string name="mcl_setting_renderer_gles2_4">Holy GL4ES - (Hanya untuk versi dibawah 1.21.4, Cepat)</string>
-    <string name="mcl_setting_renderer_vulkan_zink">Zink (Vulkan) - (semua versi, menengah)</string>
-    <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - (1.17+ saja, cepat)</string>
+    <string name="mcl_setting_renderer_gles2_4">Holy GL4ES - (1.21.4&lt; saja, Cepat)</string>
+    <string name="mcl_setting_renderer_vulkan_zink">Zink (Vulkan) - (semua versi, Lambat)</string>
+    <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - (1.17+ saja, Cepat)</string>
     <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - hanya untuk 1.17+</string>
     <string name="mcl_setting_veroption_release">Rilis</string>
     <string name="mcl_setting_veroption_snapshot">Snapshot</string>
@@ -147,7 +147,7 @@
     <string name="mcl_setting_title_mousespeed">Kecepatan Mouse</string>
     <string name="mcl_setting_subtitle_mousespeed">Ubah kecepatan mouse virtual.</string>
     <string name="mcl_setting_title_grab_mouse">Gunakan kursor virtual</string>
-    <string name="mcl_setting_subtitle_grab_mouse">Memastikan kursor tetap berada di dalam game. Mencegah mouse mengklik tata letak kontrol sentuh.</string>
+    <string name="mcl_setting_subtitle_grab_mouse">Menjaga kursor tetap berada di dalam game dan mencegah klik pada tombol kontrol sentuh.</string>
     <string name="customctrl_passthru">Mouse pass-thru</string>
     <string name="customctrl_swipeable">Bisa digesek</string>
     <string name="customctrl_forward_lock">Kunci ke depan</string>
@@ -285,8 +285,8 @@
     <string name="of_dl_progress">Mengunduh %s</string>
     <string name="create_profile_optifine">Buat profil OptiFine</string>
     <string name="hint_search_modpack">Cari paket modifikasi</string>
-    <string name="preference_vulkan_driver_system_title">Gunakan driver Vulkan sistem</string>
-    <string name="preference_vulkan_driver_system_description">Paksa peluncur untuk menggunakan driver Vulkan sistem daripada Turnip di GPU Adreno. Hanya mempengaruhi Zink dan mod-mod yang menggunakan Vulkan.</string>
+    <string name="preference_vulkan_driver_system_title">Gunakan driver Vulkan dari sistem</string>
+    <string name="preference_vulkan_driver_system_description">Gunakan driver Vulkan bawaan sistem, bukan Turnip, di GPU Adreno. Berlaku hanya untuk Zink dan mod yang memakai Vulkan.</string>
     <string name="generic_install">Pasang</string>
     <string name="generic_apply">Terapkan</string>
     <string name="generic_debug">Debug</string>
@@ -426,5 +426,5 @@
     <string name="preference_force_enable_touchcontroller_description">Selalu aktifkan integrasi kontrol sentuh, meskipun file mod tidak ditemukan.</string>
     <string name="preference_touchcontroller_vibrate_length_title">Durasi getaran kontrol sentuh</string>
     <string name="preference_touchcontroller_vibrate_length_description">Atur durasi getaran saat menggunakan kontrol sentuh.</string>
-    <string name="error_vanilla_json_corrupt">Vanilla json seems to be corrupt. Please send a bug report on github or discord.</string>
+    <string name="error_vanilla_json_corrupt">File JSON bawaan tampaknya rusak. Silakan kirim laporan bug di GitHub atau Discord.</string>
 </resources>
