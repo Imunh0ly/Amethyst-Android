@@ -85,6 +85,7 @@
     <!-- MainActivity: Control buttons -->
     <string name="control_chat">Chat</string>
     <string name="control_debug">Ladění</string>
+    <string name="control_primary">Pri</string>
     <string name="control_secondary">Sek</string>
     <string name="control_shift">◇</string>
     <string name="control_inventory">Inv</string>
