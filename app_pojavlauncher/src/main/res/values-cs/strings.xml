@@ -56,6 +56,7 @@
     <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - (pouze 1.17+, rychlé)</string>
     <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - jen 1.17+</string>
     <string name="mcl_setting_veroption_release">Vydání</string>
+    <string name="mcl_setting_veroption_snapshot">Vývojová verze</string>
     <string name="mcl_setting_veroption_oldalpha">Stará alfa</string>
     <string name="mcl_setting_veroption_oldbeta">Stará beta</string>
     <string name="mcl_setting_java_sandbox">Izolovat spouštění .jar v pískovišti</string>
@@ -347,6 +348,11 @@
     <string name="log_view_label_log_output">Výstup záznamu:</string>
     <string name="execute_jar_failed_to_read_file">Selhalo čtení souboru .jar</string>
     <string name="execute_jar_incompatible_runtime">Funkce spouštění .jar souboru není kompatibilní s Javou %d</string>
+    <string name="controller_button_a">A</string>
+    <string name="controller_button_b">B</string>
+    <string name="controller_button_x">X</string>
+    <string name="controller_button_y">Y</string>
+    <string name="controller_button_start">Start</string>
     <string name="controller_button_select">Vybrat</string>
     <string name="controller_button_trigger_left">Levá spoušť</string>
     <string name="controller_button_trigger_right">Pravá spoušť</string>
@@ -404,5 +410,10 @@
     <string name="modloader_dl_install_neoforge">Vytvořit profil NeoForge</string>
     <string name="neoforge_dl_select_version">Vyberte verzi NeoForge</string>
     <string name="neoforge_dl_no_installer">Omlouváme se, ale tato verze NeoForge nemá instalátor, což zatím není podporováno.</string>
+    <string name="preference_category_touchcontroller_settings">Nastavení dotykového ovládání</string>
+    <string name="preference_force_enable_touchcontroller_title">Vynutit povolení dotykového ovládání</string>
+    <string name="preference_force_enable_touchcontroller_description">Vynutit povolení integrace dotykového ovládání, i když není nalezen soubor módu.</string>
+    <string name="preference_touchcontroller_vibrate_length_title">Délka vibrací dotykového ovládání</string>
+    <string name="preference_touchcontroller_vibrate_length_description">Nastavte délku vibrací při použití dotykového ovládání.</string>
     <string name="error_vanilla_json_corrupt">Vanilla json se zdá být poškozen. Pošlete prosím zprávu o chybě na github nebo discord.</string>
 </resources>
