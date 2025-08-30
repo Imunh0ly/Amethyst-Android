@@ -119,6 +119,7 @@
     <string name="customctrl_button_opacity">ボタンの不透明度</string>
     <string name="customctrl_addbutton">ボタンを追加</string>
     <string name="customctrl_addbutton_drawer">ボタンドロワーの追加</string>
+    <string name="customctrl_addbutton_joystick">ジョイスティックを追加</string>
     <string name="customctrl_addsubbutton">サブボタンを追加</string>
     <string name="main_share_logs">ログファイルを共有</string>
     <string name="main_install_jar_file">.jar を実行する</string>
@@ -275,6 +276,7 @@
     <string name="newdl_starting">ゲーム構成を読み込んでいます…</string>
     <string name="newdl_downloading_metadata">ゲーム構成データをダウンロードしています %s%%完了</string>
     <string name="controller_button_select">選択...</string>
+    <string name="customctrl_visibility_title">コントロールの可視性</string>
     <string name="preference_experimental_title">実験的なもの</string>
     <string name="app_short_name">Amethyst</string>
 </resources>
