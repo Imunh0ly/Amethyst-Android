@@ -150,6 +150,7 @@
     <string name="mcl_setting_subtitle_grab_mouse">Zajistí, že kurzor zůstane uvnitř hry. Zabraňuje myši v kliknutí na dotykové ovládání.</string>
     <string name="customctrl_passthru">Převést pohyb myši</string>
     <string name="customctrl_swipeable">Povolit přejíždění</string>
+    <string name="customctrl_forward_lock">Uzamknout dopředu</string>
     <string name="customctrl_absolute_tracking">Absolutní následování prstu</string>
     <string name="memory_warning_msg">Aktuální množství volné paměti RAM (%d) je nižší než přidělená paměť RAM (%d), což může vést k pádu. Spadne-li hra, snižte přidělení paměti.</string>
     <string name="address_memory_warning_msg">Aktuální množství volné přístupné paměti RAM (%d) je nižší než přidělená paměť RAM (%d), což povede k pádu. Spadne-li hra, sniž přidělení paměti.</string>
@@ -204,6 +205,7 @@
     <string name="profiles_profile_name">Název</string>
     <string name="profiles_profile_version">Verze</string>
     <string name="global_delete">Odstranit</string>
+    <string name="pedit_java_runtime">Java prostředí</string>
     <string name="pedit_renderer">Vykreslovač</string>
     <string name="arc_capes_title">Kápě Cosmetica</string>
     <string name="arc_capes_desc">Zapne kápě z Cosmeticy (dříve Arc) Pro více informací navštivte https://cosmetica.cc. Vyžaduje OptiFine.</string>
@@ -392,9 +394,12 @@
     <string name="toast_not_available_demo">Toto není k dispozici v demo režimu</string>
     <string name="preference_renderer_mobileglues_settings">Nastavení vykreslování MobileGlues</string>
     <string name="mg_renderer_glsl_cache">Maximální mezipamět GLSL</string>
+    <string name="mg_renderer_angle">Použít ANGLE jako ovladač</string>
+    <string name="mg_renderer_multidraw">Režim vícenásobné emulace</string>
     <string name="mg_renderer_title_errorSetting">Chyba filtrování</string>
     <string name="mg_renderer_title_timerQueryExt">Zakázat využití GPU v nabídce F3</string>
     <string name="mg_renderer_summary_timerQueryExt">Opraví náhodné pády při otevření F3 na některých zařízeních Mali</string>
+    <string name="preference_ANGLE_only">Možnosti pouze pro ANGLE</string>
     <string name="preference_experimental_title">Experimentální věci</string>
     <string name="mg_renderer_title_multidrawCompute">Použít výpočty mnohonásobnou emulace</string>
     <string name="mg_renderer_summary_multidrawCompute">Používá výpočty stínů pro mnohonásobnou emulaci</string>
