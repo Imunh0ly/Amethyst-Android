@@ -54,6 +54,7 @@ mcl_indítás_letöltés_folyamatban"</string>
     <string name="mcl_setting_title_renderer_settings">További renderelő beállítások</string>
     <string name="mcl_setting_title_renderer_subtitle">Renderelő-specifikus beállítások</string>
     <string name="mcl_setting_category_renderer">Renderelő</string>
+    <string name="mcl_setting_renderer_gles2_4">Holy GL3ES - (csak 1.21.4&lt;, gyors)</string>
     <string name="mcl_setting_renderer_vulkan_zink">Zink (Vulkan) - (összes verzió, közepes)</string>
     <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - 1.17+ vagy újabb, gyors</string>
     <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - 1.17+ vagy újabb</string>
@@ -148,6 +149,7 @@ mcl_indítás_letöltés_folyamatban"</string>
     <string name="mcl_disable_swap_hand_subtitle">Letiltja a hotbar elem dupla koppintását a második kézben való cseréhez.</string>
     <string name="mcl_setting_title_mousespeed">Egér sebessége</string>
     <string name="mcl_setting_subtitle_mousespeed">Megváltoztatja a virtuális egér sebességét.</string>
+    <string name="mcl_setting_title_grab_mouse">Virtuális kurzor használata</string>
     <string name="customctrl_passthru">Egér áthaladása</string>
     <string name="customctrl_swipeable">Csúsztatható</string>
     <string name="customctrl_forward_lock">Előre zár</string>
@@ -403,4 +405,11 @@ mcl_indítás_letöltés_folyamatban"</string>
     <string name="mg_renderer_title_computeShaderext">Kísérleti Compute Shader bővítmény reklámozása</string>
     <string name="mg_renderer_summary_computeShaderext">Ez segíthet a shaderpackok összeomlásain ellen. Kikapcsolható, ha nem szükséges.</string>
     <string name="app_short_name">Ametiszt</string>
+    <string name="no_minecraft_account_found">Egy Minecraft fiók sem található</string>
+    <string name="login_again">Kérlek, jelentkezz be újra</string>
+    <string name="modloader_dl_install_neoforge">Neoforge profil létrehozása</string>
+    <string name="neoforge_dl_select_version">Neoforge verzió kiválasztása</string>
+    <string name="neoforge_dl_no_installer">Sajnáljuk, de ez a NeoForge verziónak nincsen beépített telepítője, ami még nem támogatott.</string>
+    <string name="preference_category_touchcontroller_settings">TouchController beállítások</string>
+    <string name="preference_touchcontroller_vibrate_length_title">TouchController rezgésének hossza</string>
 </resources>
