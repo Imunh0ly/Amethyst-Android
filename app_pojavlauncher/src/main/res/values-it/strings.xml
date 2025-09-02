@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
+    <string name="app_name">Amethyst</string>
     <!-- Action bar part -->
     <!-- Languages list part -->
     <!-- Login strings -->
@@ -24,6 +25,7 @@
     <string name="toast_3">Exit</string>
     -->
     <!-- MCLauncherActivity: Tabs -->
+    <string name="mcl_tab_wiki">Wiki</string>
     <!-- MCLauncherActivity: Account status -->
     <!-- MCLauncherActivity: Strings -->
     <string name="mcl_launch_cleancache">Pulizia dei file di cache in corso</string>
@@ -46,7 +48,11 @@
     <string name="mcl_setting_subtitle_mousescale">Cambia la dimensione del mouse virtuale.</string>
     <string name="mcl_setting_title_javaargs">Argomenti di avvio della JVM</string>
     <string name="mcl_setting_subtitle_javaargs">Attenzione, il gioco potrebbe crashare se effettui modifiche senza sapere quello che fai.</string>
+    <string name="mcl_setting_title_renderer_settings">Impostazioni Renderer Extra</string>
+    <string name="mcl_setting_title_renderer_subtitle">Impostazioni specifiche del Renderer</string>
+    <string name="mcl_setting_renderer_gles2_4">Holy GL4ES - (1.21.4&lt; solo, veloce)</string>
     <string name="mcl_setting_renderer_vulkan_zink">Zink (Vulkan) - (tutte le persone, med)</string>
+    <string name="mcl_setting_renderer_mobileglues">MobileGlues (OpenGL ES) - (1.17+ only, fast)</string>
     <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - solo 1.17+</string>
     <string name="mcl_setting_veroption_release">Finale</string>
     <string name="mcl_setting_veroption_oldalpha">Vecchie-alpha</string>
@@ -69,13 +75,29 @@
     <string name="global_select">Seleziona</string>
     <string name="global_retry">Riprova</string>
     <string name="global_default">Predefinito</string>
+    <string name="global_off">Off</string>
     <!-- MainActivity: strings -->
     <string name="mcn_exit_title">L\'applicazione/gioco si è chiuso con il codice %d, controlla il lastlog.txt per più dettagli.</string>
     <string name="mcn_signal_title">Applicazione/gioco interrotto dal segnale fatale %d, controllare latestlog.txt per maggiori dettagli.</string>
     <string name="mcn_exit_confirm">Sei sicuro di voler eseguire una chiusura forzata?</string>
     <string name="mcn_check_fail_vulkan_support">Il renderer Zink (Vulkan) non è supportato su questo dispositivo!</string>
     <!-- MainActivity: Control buttons -->
+    <string name="control_chat">Chat</string>
+    <string name="control_debug">Debug</string>
+    <string name="control_primary">Pri</string>
+    <string name="control_secondary">Sec</string>
+    <string name="control_shift">◇</string>
+    <string name="control_inventory">Inv</string>
+    <string name="control_up">▲</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_down">▼</string>
+    <string name="control_jump">⬛</string>
     <string name="control_thirdperson">3°</string>
+    <string name="control_listplayers">Tab</string>
+    <string name="control_mouse">Mouse</string>
+    <string name="control_mouseoff">Mouse: off</string>
+    <string name="control_mouseon">Mouse: on </string>
     <!-- MainActivity: Menu advanced controls -->
     <string name="control_forceclose">Chiusura forzata</string>
     <string name="control_viewout">Registro log</string>
@@ -120,6 +142,8 @@
     <string name="mcl_disable_swap_hand_subtitle">Disabilita il doppio tocco sull\'elemento della hotbar per scambiarlo in seconda mano.</string>
     <string name="mcl_setting_title_mousespeed">Velocità mouse</string>
     <string name="mcl_setting_subtitle_mousespeed">Cambia la velocità del mouse virtuale.</string>
+    <string name="mcl_setting_title_grab_mouse">Usa cursore virtuale</string>
+    <string name="mcl_setting_subtitle_grab_mouse">Assicura che il cursore rimanga all\'interno del gioco. Impedisce al mouse di fare clic sul layout di controllo del tocco.</string>
     <string name="customctrl_passthru">Bypassa mouse</string>
     <string name="customctrl_swipeable">Swipeabile</string>
     <string name="customctrl_absolute_tracking">Tracciamento assoluto delle dita</string>
@@ -254,6 +278,7 @@ Accedi almeno una volta su https://minecraft.net/ e riprova.</string>
     <string name="preference_vulkan_driver_system_description">Forza il launcher a utilizzare il driver Vulkan di sistema invece di Turnip su GPU Adreno. Ha effetti solo su Zink e mod che utilizzano Vulkan.</string>
     <string name="generic_install">Installa</string>
     <string name="generic_apply">Applica</string>
+    <string name="generic_debug">Debug</string>
     <string name="search_modpack_no_result">Nessun modpack trovato</string>
     <string name="search_modpack_error">La ricerca di modpack è fallita</string>
     <string name="search_modpack_download_error">Il download di modpack metadata è fallito</string>
@@ -314,4 +339,5 @@ se vuoi scaricare dalla sorgente ufficiale premi \"Passa al sito ufficiale"\ e r
     <string name="local_login_bad_username_text">Il nome utente deve avere una lunghezza compresa tra 3 e 16 caratteri e deve contenere solo lettere latine, numeri 0-9 e trattini bassi.</string>
     <string name="quick_setting_title">Impostazioni rapide</string>
     <string name="preference_experimental_title">Funzioni sperimentali</string>
+    <string name="app_short_name">Amethyst</string>
 </resources>
